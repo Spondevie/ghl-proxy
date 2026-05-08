@@ -55,5 +55,5 @@ app.all('/ghl/*', async (req, res) => {
 });
 
 app.listen(PORT, HOST, () => {
-  console.log(`GHL Proxy v2.0 running on ${HOST}:${PORT}`);
+ console.log(`GHL Proxy v2.0 running on ${HOST}:${PORT}`);
 });
